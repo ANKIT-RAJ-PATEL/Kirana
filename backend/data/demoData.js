@@ -340,7 +340,7 @@ export const demoProducts=[
   },
   {
     "id": "P027",
-    "product_name": "Good Knight Refill 45ml",
+    "product_name": "Good Knight Refill 40ml",
     "category": "Household Essentials",
     "current_stock": 28,
     "units_sold": 16,
