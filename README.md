@@ -139,24 +139,8 @@ research.md               fill this in yourself — Step 1 of the assignment
 fieldwork.md              fill this in yourself — Step 2 (your visit, your photos, your conversation)
 ```
 
-## Demo results vs fieldwork results
-
-- Anything calculated from the preloaded sample products is an illustrative result from made-up data. It shows the tool works; it proves nothing about any real shop.
-- A **fieldwork result** only exists after you import your own collected CSV (Replace all). Those numbers, and the shopkeeper's name, place and date, belong in `fieldwork.md` and your README updates — written by you, from your visit.
-
 ## Tests done while building
 
 Calculation checks run in Node (average demand, reorder point, suggested quantity, zero-stock → Critical, slow-moving detection, negative-value validation), CSV validation checks (valid/invalid/duplicate/missing-column cases), a full production build, and live API tests against the running backend: health, stats, list, create, edit (PUT), stock-only patch, reviewed toggle, import, clear-real, reset-demo, and negative-stock rejection (400). A real bug was caught and fixed this way: the first stock-patch reused the full-product formatter and blanked the other fields — stock updates are now a true partial update, re-tested. There is only one dataset, so there is nothing to separate or mix — every API route reads and writes the same single collection / fallback `products` list.
 
-## Before you submit — checklist from the assignment
-
-These are the assignment's own submission rules, not just good practice:
-
-- **Public Git repo, contents at the repo root** — a nested single folder hides this README from the landing page. Commit in small steps, **at least 5 commits spread across the day, messages in your own words**. The assignment asks for the first commit (`research.md`) within the first hour — if you haven't committed yet, commit now; one big commit at the end is listed as a red flag.
-- **`reflection.md`** — write it yourself, without AI, about half a page: what you got wrong at the start, what you would cut, where AI helped and where it wasted time. A prompts-only template is in this repo; fill it in yourself.
-- **Export your AI chats into `ai-chats/`** before submission.
-- **3-minute screen recording of the tool running** — record it and paste the link here: [add your screen-recording link here].
-- **Real data only for submission** — replace `data.csv` with your own collected CSV (20+ rows), fill `research.md` and `fieldwork.md` yourself, and import the same CSV in the app.
-- **Run it once with real MongoDB connected** (Atlas `MONGO_URI` in `backend/.env`) and confirm `GET /api/health` says `"database": "mongodb"`.
-- **Email the repo link within 24 hours** of receiving the task.
-- **On the call, be ready to:** open one data row and say where you were when you recorded it, feed the tool a bad row, and change one thing in the code (e.g. a threshold) live.
+Screen Recording link - https://drive.google.com/file/d/1IHvEQ8wZIlSr7BkVi2h0Vy_pt5s3ZtXT/view?usp=drive_link
