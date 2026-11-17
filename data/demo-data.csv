@@ -1,0 +1,29 @@
+product_name,category,current_stock,units_sold,observation_period_days,lead_time_days,safety_stock,unit,target_stock
+Maggi Noodles 70g,Instant & Packaged Foods,18,147,14,3,12,packets,120
+Parle-G Gold 100g,Biscuits & Snacks,64,98,14,2,15,packets,140
+Amul Taaza Milk 500ml,Dairy & Bread,9,182,14,1,18,packets,90
+Britannia Good Day 150g,Biscuits & Snacks,22,76,14,3,10,packets,90
+Tata Salt 1kg,Staples & Atta,31,43,14,4,8,packets,60
+Aashirvaad Atta 5kg,Staples & Atta,7,19,14,5,4,bags,24
+Surf Excel Easy Wash 1kg,Household & Cleaning,14,27,14,4,5,packets,32
+Fortune Sunlite Oil 1L,Staples & Atta,16,38,14,4,6,bottles,40
+Colgate MaxFresh 150g,Personal Care,11,33,14,5,6,tubes,36
+Lux Soap 100g,Personal Care,42,51,14,3,10,pieces,80
+Coca-Cola 750ml,Beverages,24,89,14,2,12,bottles,96
+Dettol Antiseptic 250ml,Household & Cleaning,19,14,14,6,3,bottles,28
+Haldiram Aloo Bhujia 200g,Biscuits & Snacks,13,67,14,3,9,packets,72
+Vim Gel 500ml,Household & Cleaning,21,29,14,4,5,bottles,40
+Tata Tea Gold 250g,Beverages,17,36,14,4,6,packets,44
+Kurkure Masala Munch 90g,Biscuits & Snacks,8,113,14,2,14,packets,110
+Fevicol SH 100g,Household Essentials,26,6,14,7,2,tubes,30
+Rin Detergent Bar 250g,Household & Cleaning,38,44,14,3,8,pieces,64
+Cadbury Dairy Milk 40g,Chocolates & Sweets,15,84,14,2,11,pieces,84
+Clinic Plus Shampoo 340ml,Personal Care,12,21,14,5,4,bottles,28
+Real Mixed Fruit Juice 1L,Beverages,20,31,14,3,5,packs,42
+Lays India Magic Masala 73g,Biscuits & Snacks,6,121,14,2,15,packets,115
+Nescafe Classic 90g,Beverages,10,17,14,6,3,jars,22
+Sunlight Soap 100g,Personal Care,47,38,14,3,8,pieces,72
+Mother Dairy Curd 400g,Dairy & Bread,5,96,14,1,13,cups,62
+Amul Butter 100g,Dairy & Bread,13,58,14,2,7,packs,48
+Good Knight Refill 45ml,Household Essentials,28,16,14,5,3,pieces,36
+Bournvita 500g,Beverages,9,13,14,6,3,jars,20

@@ -1,0 +1,1 @@
+import {useState,useCallback} from 'react'; export function useToast(){const [toasts,setToasts]=useState([]); const push=useCallback((msg,type='success')=>{const id=Date.now()+Math.random(); setToasts(t=>[...t,{id,msg,type}]); setTimeout(()=>setToasts(t=>t.filter(x=>x.id!==id)),3400);},[]); return {toasts,push};}
