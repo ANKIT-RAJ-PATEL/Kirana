@@ -13,3 +13,6 @@ I would cut the two-dashboard setup ("Demo Mode" vs. "Real Store Mode"). Maintai
 
 ### Where AI Wasted Time
 Generating a complete frontend-only app with `LocalStorage` and a mode switcher right at the start felt fast, but almost all of that data logic had to be thrown away and rewritten once I switched to a proper MERN stack. Planning the backend first would have saved a lot of rework.
+
+
+Screen Recording link - https://drive.google.com/file/d/1IHvEQ8wZIlSr7BkVi2h0Vy_pt5s3ZtXT/view?usp=drive_link
